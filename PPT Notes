@@ -1,0 +1,44 @@
+SLIDE 3
+
+“What’s a Library in Python?”
+
+A Python library is a collection of pre-written code modules that provide specific functionality to developers13.These libraries contain reusable functions, classes, and tools that can be imported and used in Python programs, allowing developers to extend the capabilities of the language without having to write everything from scratch5.
+
+Python libraries come in two main forms:
+Modules: Single files containing Python code that create a shallow namespace3.
+Packages: Folders structured with multiple modules that can create deeper nested namespaces3.
+
+SLIDE 4
+
+Now that we’ve level-set everyone, let’s dive into the new material for tonight…
+
+“What does that mean to you?”
+
+SLIDE 5
+
+Linear regression is like playing connect-the-dots, but instead of connecting all the dots exactly, you're trying to draw one straight LINE that comes as close as possible to all the dots.
+
+SLIDE 7
+
+“What’s one quick easy way to find out if our data is linear or not?”
+
+Calculate the correlation coefficient (r)7. If |r| is close to 1, it suggests a strong linear relationship between variables7.
+Perform a linear regression and examine the coefficient of determination (R-squared)6. A high R-squared value indicates a good linear fit6.
+Analyze the eigenvalues from Principal Component Analysis (PCA)1. For linear data, the first few eigenvalues will be significantly larger than the rest, which will be close to zero1.
+Create a scatter plot of your data5. A linear relationship will appear as points clustered around a straight line5.
+Check for a constant rate of change in y-values as x-values increase3. If the change is consistent, it suggests linearity.
+
+
+SLIDE 10
+
+“Is this data linear, or non-linear?”
+
+
+SLIDE 11
+
+The Equation: y = a + bX, where: b is the slope (rate of change)
+a is the intercept (value when x = 0)
+
+Error Minimization:The algorithm minimizes the sum of squared residuals (differences between actual and predicted values).
+
+"What do you think happens to the line if the slope is too high or too low compared to our data?"
